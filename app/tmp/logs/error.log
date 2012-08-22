@@ -1372,3 +1372,28 @@
 2012-08-22 02:24:24 Error: [MissingControllerException] Controller class FontsController could not be found.
 #0 /home/papzkie/jeffandhanzel.com/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2012-08-22 02:42:20 Error: [MissingTableException] Table gifts for model Gift was not found in datasource default.
+#0 /home/papzkie/jeffandhanzel.com/lib/Cake/Model/Model.php(3180): Model->setSource('gifts')
+#1 /home/papzkie/jeffandhanzel.com/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /home/papzkie/jeffandhanzel.com/app/Controller/GiftsController.php(22): Model->find('all')
+#3 [internal function]: GiftsController->gifthtml()
+#4 /home/papzkie/jeffandhanzel.com/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GiftsController), Array)
+#5 /home/papzkie/jeffandhanzel.com/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/papzkie/jeffandhanzel.com/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GiftsController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/papzkie/jeffandhanzel.com/lib/Cake/Core/Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#8 /home/papzkie/jeffandhanzel.com/app/webroot/gift-list.php(4): Object->requestAction('/gifts/gifthtml')
+#9 /home/papzkie/jeffandhanzel.com/app/View/Pages/home.ctp(139): require_once('/home/papzkie/j...')
+#10 /home/papzkie/jeffandhanzel.com/lib/Cake/View/View.php(920): include('/home/papzkie/j...')
+#11 /home/papzkie/jeffandhanzel.com/lib/Cake/View/View.php(883): View->_evaluate('/home/papzkie/j...', Array)
+#12 /home/papzkie/jeffandhanzel.com/lib/Cake/View/View.php(475): View->_render('/home/papzkie/j...')
+#13 /home/papzkie/jeffandhanzel.com/lib/Cake/Controller/Controller.php(957): View->render('home', NULL)
+#14 /home/papzkie/jeffandhanzel.com/app/Controller/PagesController.php(73): Controller->render('home')
+#15 [internal function]: PagesController->display('home')
+#16 /home/papzkie/jeffandhanzel.com/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#17 /home/papzkie/jeffandhanzel.com/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#18 /home/papzkie/jeffandhanzel.com/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#19 /home/papzkie/jeffandhanzel.com/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2012-08-22 02:44:23 Error: [MissingControllerException] Controller class FontsController could not be found.
+#0 /home/papzkie/jeffandhanzel.com/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

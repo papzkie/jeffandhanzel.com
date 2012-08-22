@@ -62,10 +62,10 @@ class DATABASE_CONFIG {
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => 'mysql.maechiong.info',
+		'host' => 'mysql.jeffandhanzel.com',
 		'login' => 'papzkie',
 		'password' => '09122008',
-		'database' => 'cake_maechiong_info',
+		'database' => 'jeffandhanzel_wedding',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
@@ -73,10 +73,10 @@ class DATABASE_CONFIG {
 	public $test = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => 'mysql.maechiong.info',
+		'host' => 'mysql.jeffandhanzel.com',
 		'login' => 'papzkie',
 		'password' => '09122008',
-		'database' => 'test_maechiong_info',
+		'database' => 'test_jeffandhanzel_wedding',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
