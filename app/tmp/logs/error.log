@@ -2000,3 +2000,114 @@
 2012-09-26 14:12:49 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
 #0 /home/papzkie/jeffandhanzel.com/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-04-15 22:08:31 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Model\Datasource\Database\Mysql.php(180): DboSource->_execute('SHOW TABLES FRO...')
+#2 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Model\Model.php(1097): Mysql->listSources()
+#3 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Model\Model.php(3180): Model->setSource('gifts')
+#4 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#5 C:\xampp\htdocs\jeffandhanzel.com\app\Controller\GiftsController.php(22): Model->find('all')
+#6 [internal function]: GiftsController->gifthtml()
+#7 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(GiftsController), Array)
+#8 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(GiftsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Core\Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#11 C:\xampp\htdocs\jeffandhanzel.com\app\webroot\gift-list.php(4): Object->requestAction('/gifts/gifthtml')
+#12 C:\xampp\htdocs\jeffandhanzel.com\app\View\Pages\home.ctp(139): require_once('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#14 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#15 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#16 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Controller\Controller.php(957): View->render('home', NULL)
+#17 C:\xampp\htdocs\jeffandhanzel.com\app\Controller\PagesController.php(73): Controller->render('home')
+#18 [internal function]: PagesController->display('home')
+#19 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#20 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#21 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#22 C:\xampp\htdocs\jeffandhanzel.com\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#23 {main}
+2013-04-15 22:08:33 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Model\Datasource\Database\Mysql.php(180): DboSource->_execute('SHOW TABLES FRO...')
+#2 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Model\Model.php(1097): Mysql->listSources()
+#3 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Model\Model.php(3180): Model->setSource('gifts')
+#4 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#5 C:\xampp\htdocs\jeffandhanzel.com\app\Controller\GiftsController.php(22): Model->find('all')
+#6 [internal function]: GiftsController->gifthtml()
+#7 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(GiftsController), Array)
+#8 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(GiftsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Core\Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#11 C:\xampp\htdocs\jeffandhanzel.com\app\webroot\gift-list.php(4): Object->requestAction('/gifts/gifthtml')
+#12 C:\xampp\htdocs\jeffandhanzel.com\app\View\Pages\home.ctp(139): require_once('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#14 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#15 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#16 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Controller\Controller.php(957): View->render('home', NULL)
+#17 C:\xampp\htdocs\jeffandhanzel.com\app\Controller\PagesController.php(73): Controller->render('home')
+#18 [internal function]: PagesController->display('home')
+#19 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#20 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#21 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#22 C:\xampp\htdocs\jeffandhanzel.com\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#23 {main}
+2013-04-15 22:11:45 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+#0 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Model\Datasource\DboSource.php(461): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Model\Datasource\Database\Mysql.php(180): DboSource->_execute('SHOW TABLES FRO...')
+#2 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Model\Model.php(1097): Mysql->listSources()
+#3 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Model\Model.php(3180): Model->setSource('gifts')
+#4 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Model\Model.php(2631): Model->getDataSource()
+#5 C:\xampp\htdocs\jeffandhanzel.com\app\Controller\GiftsController.php(22): Model->find('all')
+#6 [internal function]: GiftsController->gifthtml()
+#7 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(GiftsController), Array)
+#8 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(GiftsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Core\Object.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#11 C:\xampp\htdocs\jeffandhanzel.com\app\webroot\gift-list.php(4): Object->requestAction('/gifts/gifthtml')
+#12 C:\xampp\htdocs\jeffandhanzel.com\app\View\Pages\home.ctp(139): require_once('C:\xampp\htdocs...')
+#13 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#14 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#15 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#16 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Controller\Controller.php(957): View->render('home', NULL)
+#17 C:\xampp\htdocs\jeffandhanzel.com\app\Controller\PagesController.php(73): Controller->render('home')
+#18 [internal function]: PagesController->display('home')
+#19 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#20 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#21 C:\xampp\htdocs\jeffandhanzel.com\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#22 C:\xampp\htdocs\jeffandhanzel.com\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#23 {main}
+2013-04-15 22:16:21 Error: [MissingControllerException] Controller class FontsController could not be found.
+#0 C:\xampp\htdocs\jeffandhanzel.com\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-15 22:24:24 Error: [MissingControllerException] Controller class FontsController could not be found.
+#0 C:\xampp\htdocs\jeffandhanzel.com\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-15 22:24:45 Error: [MissingControllerException] Controller class FontsController could not be found.
+#0 C:\xampp\htdocs\jeffandhanzel.com\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-15 22:31:38 Error: [MissingControllerException] Controller class FontsController could not be found.
+#0 C:\xampp\htdocs\jeffandhanzel.com\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-15 22:33:42 Error: [MissingControllerException] Controller class FontsController could not be found.
+#0 C:\xampp\htdocs\jeffandhanzel.com\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-15 22:34:12 Error: [MissingControllerException] Controller class FontsController could not be found.
+#0 C:\xampp\htdocs\jeffandhanzel.com\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-15 22:41:35 Error: [MissingControllerException] Controller class FontsController could not be found.
+#0 C:\xampp\htdocs\jeffandhanzel.com\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-15 22:42:28 Error: [MissingControllerException] Controller class FontsController could not be found.
+#0 C:\xampp\htdocs\jeffandhanzel.com\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-15 22:42:40 Error: [MissingControllerException] Controller class FontsController could not be found.
+#0 C:\xampp\htdocs\jeffandhanzel.com\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-15 22:43:12 Error: [MissingControllerException] Controller class FontsController could not be found.
+#0 C:\xampp\htdocs\jeffandhanzel.com\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-15 22:46:40 Error: [MissingControllerException] Controller class FontsController could not be found.
+#0 C:\xampp\htdocs\jeffandhanzel.com\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-15 22:50:51 Error: [MissingControllerException] Controller class FontsController could not be found.
+#0 C:\xampp\htdocs\jeffandhanzel.com\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

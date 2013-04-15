@@ -804,4 +804,6 @@ a.gift:hover{
 	font-weight: normal;
 	font-style: normal;
 }
-
+.min-width {
+	min-width: 980px !important;
+}

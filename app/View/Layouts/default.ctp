@@ -43,7 +43,6 @@ $cakeDescription = __d('cake_dev', 'Jeff & Hanzel');
 </head>
 <body>
 	 <?php include_once("analytics.php") ?>
-	<link href="css/bootstrap-responsive.css" rel="stylesheet">
 			<?php echo $this->Session->flash(); ?>
 			<?php echo $this->fetch('content'); ?>
 
