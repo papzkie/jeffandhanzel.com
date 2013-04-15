@@ -74,7 +74,7 @@
 						<p>&nbsp;</p>
 					</div>
 					<div class="span3" style="margin-left:15px">
-						<p>Felicity Vecca Cordova</p>
+						<p>Felicity Vicca Cordova</p>
 						<p>Ellana Julie Dagala</p>
 						<p>Rian Ghelzi Florita</p>
 					</div>
